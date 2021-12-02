@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "cwd": "babelrc",
+        "root": ["./src"],
+        "alias": {
+          "_assets": ["./assets"],
+          "_api": ["./api"],
+          "_components": ["./components"],
+          "_navigation": ["./navigation"],
+          "_pages": ["./pages"],
+          "_styles": ["./styles"],
+          "_utils": ["./utils"]
+        },
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ]
+  ]
+}
